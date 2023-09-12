@@ -24,7 +24,6 @@ let
     breeze = libsForQt5.breeze-qt5;
 
     kvantum = [
-      qtstyleplugin-kvantum-qt4
       libsForQt5.qtstyleplugin-kvantum
       qt6Packages.qtstyleplugin-kvantum
     ];
@@ -88,7 +87,6 @@ in {
             "adwaita-qt"
             [ "libsForQt5" "breeze-qt5" ]
             [ "libsForQt5" "qtstyleplugins" ]
-            "qtstyleplugin-kvantum-qt4"
             [ "libsForQt5" "qtstyleplugin-kvantum" ]
             [ "qt6Packages" "qtstyleplugin-kvantum" ]
           ];
